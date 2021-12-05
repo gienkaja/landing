@@ -1,0 +1,81 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Roboto', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header {
+    background-color: #1F2937;
+}
+
+.info {
+
+}
+
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+}
+
+.call{
+    background-color: #3882f6;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #e5e7eb;;
+
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
+.main-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.secondary-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.links {
+    color: #e5e7eb;
+    font-size: 18px;
+    list-style: none;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.img-placeholder {
+    background-color: grey;
+    color: #e5e7eb;
+    width: 400px;
+    height: 100px;
+}
+
+.sign-up1 {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.sign-up2 {
+    background-color: #3882f6;
+    color:
+}
+
+.random {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
