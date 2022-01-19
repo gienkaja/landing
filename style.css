@@ -5,7 +5,21 @@
 
 body {
     font-family: 'Roboto', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
+
+.maincontents{
+display:flex;
+flex-direction: column;
+}
+
+.blank {
+flex: 1 1 auto;
+height: auto;
+}
+
 
 .header {
     background-color: #1F2937;
@@ -66,7 +80,7 @@ body {
     padding-top: 100px;
     padding-bottom: 100px;
     justify-content: center;
-    
+
 }
 
 .quotation {
@@ -75,15 +89,23 @@ body {
 
 }
 
-.call{
-    background-color: #3882f6;
-}
+
 
 .footer {
     background-color: #1F2937;
-    color: #e5e7eb;;
+    color: #e5e7eb;
+    padding: 25px;
+    flex: 0;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
+
+
 
 .hero {
     background-color: #1F2937;
@@ -98,7 +120,7 @@ body {
 }
 
 .container-hero {
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -137,9 +159,10 @@ body {
 .link-bar {
     width: 1200px;
     max-width: 1200px;
-    
-    
+
+
 }
+
 .links {
     color: #e5e7eb;
     font-size: 18px;
@@ -163,16 +186,22 @@ body {
     border-style: none;
     border-radius: 5px;
     margin-top: 10px;
-    
+
 }
 
 .sign-up2 {
     background-color: #3882f6;
+    color: #f9faf8;
+    padding: 10px 25px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: white;
+    margin-top: 10px;
 }
 
 
 .quote-container {
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -185,4 +214,33 @@ body {
     align-self: flex-end;
     font-weight: 700;
     font-size: 26px;
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.blue-box {
+    background-color: #3882f6;
+    padding: 50px;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    gap: 100px;
+    width: 100%;
+    max-width: 1200px;
+    justify-content: space-around;
+}
+
+
+.call-bold {
+    font-weight: 700;
+    font-size: 26px;
+}
+
+main {
+    flex: 1 1 auto;
 }
