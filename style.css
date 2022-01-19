@@ -115,10 +115,9 @@ height: auto;
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     padding-top: 30px;
     padding-bottom: 60px;
-    flex-wrap: wrap;
     max-width: 1200px;
     width: 100%;
 }
@@ -139,6 +138,8 @@ height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 5px;
+    
 }
 
 .main-text {
